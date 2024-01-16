@@ -1,0 +1,75 @@
+{
+  "editor.minimap.enabled": false, // uncomment to show minimap
+  "editor.renderWhitespace": "none",
+  "editor.overviewRulerBorder": false,
+  "editor.hideCursorInOverviewRuler": true,
+  "editor.folding": false,
+  "editor.glyphMargin": false,
+  "editor.guides.indentation": true,
+  "editor.wordWrap": "on",
+  "editor.smoothScrolling": true,
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "editor.formatOnSave": true,
+  "editor.showFoldingControls": "mouseover",
+  "editor.fontFamily": "Hack Nerd Font, 'Courier New', monospace", // hack nerd font
+  "editor.fontLigatures": true,
+  "editor.tabSize": 2,
+  "editor.lineNumbers": "relative", // make 'off' for default line number
+  "editor.scrollbar.horizontal": "hidden", // uncomment to show scrollbar (horinzoltal)
+  "editor.scrollbar.vertical": "hidden", // uncomment to show scrollbar (vertical)
+  "editor.fontSize": 14,
+  "breadcrumbs.enabled": false,
+  "workbench.colorCustomizations": {
+    "scrollbar.shadow": "#ffffff00",
+    "widget.shadow": "#ffffff00",
+    "editor.background": "#001b26",
+    "sideBar.background": "#00161f",
+    "sideBar.border": "#369e65",
+    "terminal.background": "#001b26",
+    "panel.background": "#001b26",
+    "statusBar.background": "#001b26",
+    "statusBar.border": "#001b26",
+    "editorLineNumber.activeForeground": "#369e65"
+  },
+  "workbench.layoutControl.enabled": false,
+  "workbench.editor.tabActionCloseVisibility": false,
+  "workbench.colorTheme": "One Dark Pro",
+  "workbench.editor.showTabs": "single", // make 'multiple' to show tabs
+  "workbench.editor.revealIfOpen": true,
+  "workbench.statusBar.visible": false, // uncomment to show status bar (bottom)
+  "workbench.activityBar.location": "hidden", // uncomment to show activity bar (where you select extension, explorer, etc.)
+  "workbench.iconTheme": "symbols",
+  "explorer.confirmDelete": false,
+  "explorer.confirmDragAndDrop": false,
+  "material-icon-theme.folders.theme": "classic",
+  "terminal.integrated.gpuAcceleration": "off",
+  "terminal.integrated.fontFamily": "Hack Nerd Font, 'Courier New', monospace",
+  "window.commandCenter": false,
+  "window.titleBarStyle": "native",
+  "breadcrumbs.filePath": "off", // uncomment to show breadcrumbs
+  "apc.electron": {
+    // uncomment (apc.electron: {...}) to show header menu
+    "frame": false,
+    "titleBarStyle": "hidden"
+  },
+  "apc.stylesheet": {
+    ".title-label": "display: none !important", // uncomment to show explorer title
+    ".monaco-workbench .part.sidebar .title-actions .actions-container": "justify-content: space-evenly  !important", // uncomment for default
+    ".monaco-workbench .part > .content .file-icon": {
+      "font-family": "Hack Nerd Font, 'Courier New', monospace;"
+    },
+    ".monaco-workbench .part > .content .folder-icon": {
+      "font-family": "Hack Nerd Font, 'Courier New', monospace;"
+    }
+  },
+  "apc.header": {
+    "height": 1 // 37 if want to show edit header
+  },
+  "apc.sidebar.titlebar": {
+    "height": 37
+  },
+  "extensions.ignoreRecommendations": true,
+  "glassit.alpha": 245,
+  "symbols.hidesExplorerArrows": false,
+  "window.density.editorTabHeight": "compact"
+}
