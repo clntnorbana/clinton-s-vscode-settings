@@ -1,76 +1,106 @@
 {
-  "editor.minimap.enabled": false, // uncomment to show minimap
-  "editor.renderWhitespace": "none",
+  "editor.minimap.enabled": false,
+  "editor.renderWhitespace": "selection",
   "editor.overviewRulerBorder": false,
   "editor.hideCursorInOverviewRuler": true,
   "editor.folding": false,
   "editor.glyphMargin": false,
-  "editor.guides.indentation": true,
+  "editor.guides.indentation": false,
   "editor.wordWrap": "on",
   "editor.smoothScrolling": true,
   "editor.defaultFormatter": "esbenp.prettier-vscode",
   "editor.formatOnSave": true,
   "editor.showFoldingControls": "mouseover",
-  "editor.fontFamily": "Hack Nerd Font, 'Courier New', monospace", // hack nerd font
+  "editor.fontFamily": "Comic Code Light",
+  "editor.padding.top": 8,
+  // "editor.fontFamily": "FiraCode Nerd Font Mono",
   "editor.fontLigatures": true,
   "editor.tabSize": 2,
-  "editor.padding.top": 10,
-  "editor.lineNumbers": "relative", // make 'off' for default line number
-  "editor.scrollbar.horizontal": "hidden", // uncomment to show scrollbar (horinzoltal)
-  "editor.scrollbar.vertical": "hidden", // uncomment to show scrollbar (vertical)
+  "editor.lineNumbers": "relative",
+  "editor.scrollbar.horizontal": "hidden",
+  "editor.scrollbar.vertical": "visible",
   "editor.fontSize": 14,
-  "breadcrumbs.enabled": false,
+  "editor.cursorWidth": 1,
+  "editor.cursorBlinking": "solid",
   "workbench.colorCustomizations": {
-    "scrollbar.shadow": "#ffffff00",
-    "widget.shadow": "#ffffff00",
-    "editor.background": "#001b26",
-    "sideBar.background": "#00161f",
-    "sideBar.border": "#369e65",
-    "terminal.background": "#001b26",
-    "panel.background": "#001b26",
-    "statusBar.background": "#001b26",
-    "statusBar.border": "#001b26",
-    "editorLineNumber.activeForeground": "#369e65"
+    "editorGutter.background": "#00000000",
+    "editorLineNumber.activeForeground": "#0ce755",
+    "breadcrumb.background": "#00000000",
+    "editorCursor.foreground": "#fff",
+    "scrollbar.shadow": "#00000000"
   },
+  // "workbench.editorAssociations": {
+  //   "*.pdf": "default"
+  // },
+  // "workbench.list.defaultFindMode": "filter",
+  // "workbench.settings.applyToAllProfiles": [],
   "workbench.layoutControl.enabled": false,
   "workbench.editor.tabActionCloseVisibility": false,
-  "workbench.colorTheme": "One Dark Pro",
-  "workbench.editor.showTabs": "single", // make 'multiple' to show tabs
+  "workbench.editor.showTabs": "none",
   "workbench.editor.revealIfOpen": true,
-  "workbench.statusBar.visible": false, // uncomment to show status bar (bottom)
-  "workbench.activityBar.location": "hidden", // uncomment to show activity bar (where you select extension, explorer, etc.)
-  "workbench.iconTheme": "symbols",
-  "explorer.confirmDelete": false,
-  "explorer.confirmDragAndDrop": false,
-  "material-icon-theme.folders.theme": "classic",
+  "workbench.iconTheme": "gruvbox-material-icon-theme",
+  "workbench.colorTheme": "Kanagawa",
+  "workbench.tree.renderIndentGuides": "none",
+  "workbench.activityBar.location": "hidden",
+  // "explorer.confirmDelete": false,
+  // "explorer.confirmDragAndDrop": false,
+  // "reactSnippets.settings.importReactOnTop": false,
+  // "liveServer.settings.CustomBrowser": "chrome",
+  // "liveServer.settings.donotShowInfoMsg": true,
   "terminal.integrated.gpuAcceleration": "off",
-  "terminal.integrated.fontFamily": "Hack Nerd Font, 'Courier New', monospace",
+  "terminal.integrated.fontFamily": "FiraCode Nerd Font Mono",
+  "css.lint.unknownProperties": "ignore",
+  "css.lint.unknownAtRules": "ignore",
+  "window.customTitleBarVisibility": "never",
   "window.commandCenter": false,
   "window.titleBarStyle": "native",
-  "breadcrumbs.filePath": "off", // uncomment to show breadcrumbs
+  // "extensions.ignoreRecommendations": true,
+  // "launch": {
+  //   "configurations": [],
+  //   "compounds": []
+  // },
+  // "typescript.updateImportsOnFileMove.enabled": "always",
+  // "javascript.updateImportsOnFileMove.enabled": "always",
+  // "[javascript]": {
+  //   "editor.defaultFormatter": "esbenp.prettier-vscode"
+  // },
+  // "[php]": {
+  //   "editor.defaultFormatter": "bmewburn.vscode-intelephense-client"
+  // },
+  // "[html]": {
+  //   "editor.defaultFormatter": "esbenp.prettier-vscode"
+  // },
   "apc.electron": {
-    // uncomment (apc.electron: {...}) to show header menu
     "frame": false,
-    "titleBarStyle": "hidden"
+    "titleBarStyle": "hidden",
+    "opacity": 0.98
   },
   "apc.stylesheet": {
-    ".title-label": "display: none !important", // uncomment to show explorer title
-    ".monaco-workbench .part.sidebar .title-actions .actions-container": "justify-content: space-evenly  !important", // uncomment for default
-    ".monaco-workbench .part > .content .file-icon": {
-      "font-family": "Hack Nerd Font, 'Courier New', monospace;"
-    },
-    ".monaco-workbench .part > .content .folder-icon": {
-      "font-family": "Hack Nerd Font, 'Courier New', monospace;"
+    ".title-label": "display: none !important",
+    ".file-icon": "font-family: Comic Code Light; font-size: 12.5px;",
+    ".folder-icon": "font-family: Comic Code Light; font-size: 12.5px;",
+    ".monaco-workbench .monaco-list:not(.element-focused):focus:before": "outline: none; !important",
+    ".sidebar": "padding-top: 10px !important; height: 100%; border-right: solid 1px !important",
+    ".sidebar .composite.title": "display: none !important;",
+    ".editor .split-view-view.visible:nth-child(2)": "border-left: solid  1px !important",
+    ".letterpress": "display: none !important",
+    ".monaco-breadcrumbs .label-name": "font-size: 12px",
+    ".monaco-breadcrumb-item": "font-weight: 500; padding: 3px; font-family: Comic Code Light;",
+    ".monaco-breadcrumbs": "display: flex !important; justify-content: center;",
+    ".folder.monaco-breadcrumb-item": "background: #E8C872; color: #000 !important;",
+    ".file.monaco-breadcrumb-item": "background: #FFF3CF; color: #000 !important; width: 100%",
+    ".outline-element.monaco-breadcrumb-item": "background: #637A9F ; color: #fff !important;",
+    ".title.show-file-icons": "position: absolute !important; bottom: 0; opacity: 0.8"
+  },
+  "multiCommand.commands": [
+    {
+      "command": "multiCommand.saveAndCloseEditor",
+      "sequence": [
+        "workbench.action.files.save",
+        "workbench.action.closeActiveEditor"
+      ]
     }
-  },
-  "apc.header": {
-    "height": 1 // 37 if want to show edit header
-  },
-  "apc.sidebar.titlebar": {
-    "height": 37
-  },
-  "extensions.ignoreRecommendations": true,
-  "glassit.alpha": 245,
-  "symbols.hidesExplorerArrows": false,
-  "window.density.editorTabHeight": "compact"
+  ],
+  "workbench.startupEditor": "none",
+  "update.mode": "default"
 }
