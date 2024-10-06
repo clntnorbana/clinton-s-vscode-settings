@@ -1,11 +1,11 @@
 {
   "editor.minimap.enabled": false,
-  "editor.renderWhitespace": "selection",
+  "editor.renderWhitespace": "none",
   "editor.overviewRulerBorder": false,
   "editor.hideCursorInOverviewRuler": false,
   "editor.folding": false,
-  // "editor.glyphMargin": false,14
-  // "editor.guides.indentation": false,
+  // "editor.glyphMargin": false,
+  "editor.guides.indentation": false,
   "editor.wordWrap": "off",
   "editor.smoothScrolling": true,
   "editor.defaultFormatter": "esbenp.prettier-vscode",
@@ -22,12 +22,11 @@
   "editor.lineNumbers": "relative",
   "editor.scrollbar.horizontal": "hidden",
   "editor.scrollbar.vertical": "hidden",
-  "editor.fontSize": 16,
-  "editor.lineHeight": 20,
+  "editor.fontSize": 14,
+  "editor.lineHeight": 0,
   "editor.linkedEditing": true,
   "editor.cursorWidth": 1,
   "editor.guides.bracketPairs": "active",
-  "editor.cursorBlinking": "solid",
   "workbench.colorCustomizations": {
     "editorCursor.foreground": "#fff",
     "scrollbar.shadow": "#00000000",
@@ -36,6 +35,13 @@
     "editor.background": "#010101",
     "sideBar.background": "#010101",
     "editorGutter.background": "#010101"
+    // "statusBar.background": "#aa3",
+    // "statusBar.foreground": "#000"
+    // "terminal.background": "#010101"
+    // "[Rosé Pine]": {
+    //   "statusBar.background": "#b6b6be",
+    //   "statusBar.foreground": "#000"
+    // }
   },
   "workbench.editorAssociations": {
     "*.pdf": "default"
@@ -82,22 +88,21 @@
   },
   "apc.electron": {
     "frame": false,
-    "opacity": 0.96
+    "opacity": 0.98
   },
   "apc.stylesheet": {
     ".title-label": "display: none !important",
-    ".file-icon": "font-family: Hack Nerd Font; font-size: 12.5px;",
-    ".folder-icon": "font-family: Hack Nerd Font; font-size: 12.5px;",
+    ".file-icon": "font-family: Hack Nerd Font; font-size: 11px;",
+    ".folder-icon": "font-family: Hack Nerd Font; font-size: 11px;",
     ".monaco-workbench .monaco-list:not(.element-focused):focus:before": "outline: none; !important",
     ".editor .split-view-view.visible:nth-child(n+2)": "border-left: solid 10px #032c3e !important",
     ".letterpress": "display: none !important", // comment this
-    ".titlebar-container": "background: #2e373b;",
+    // ".titlebar-container": "background: #2e373b;",
     ".titlebar-container .action-toolbar-container .monaco-toolbar": "display: none",
     ".titlebar-container .window-title": "display: none",
     ".titlebar-container .window-appicon": "display: none",
     ".part.statusbar": "position: absolute !important; bottom: 15px; font-weight: bold;",
-    ".statusbar-item": "font-family: Hack Nerd Font;",
-    ".title.show-file-icons": "z-index: 10; position: absolute !important; bottom: 18px;", // uncomment this
+    ".title.show-file-icons": "z-index: 10; position: absolute !important; bottom: 20px;", // uncomment this
     ".monaco-breadcrumbs": "display: flex !important; justify-content: start; pointer-events: none;  ",
     ".monaco-breadcrumb-item": "padding: 3px; font-family: Hack Nerd Font;",
     ".monaco-breadcrumbs .label-name": "font-size: 12px;",
@@ -113,10 +118,12 @@
 
     // twistie
     ".monaco-tl-twistie.codicon.codicon-tree-item-expanded.collapsible::before": "content: '~';",
-    ".monaco-tl-twistie.collapsible.collapsed.codicon.codicon-tree-item-expanded::before": "content: '+';"
+    ".monaco-tl-twistie.collapsible.collapsed.codicon.codicon-tree-item-expanded::before": "content: '+';",
 
-    // ".statusbar-item.left.first-visible-item": "background: #E8C872; color: #000;",
-    // ".statusbar-item.right.last-visible-item": "background: #E8C872; color: #000;"
+    ".statusbar": "font-family: FiraCode Nerd Font;"
+    // ".statusbar-item.left": "background: #E8C872; color: #000;",
+    // ".statusbar-item.right": "background: #E8C872; color: #000;"
+    // ".statusbar-item": "background: #E8C872; color: #000;"
   },
   "multiCommand.commands": [
     {
@@ -133,18 +140,18 @@
   "editor.stickyScroll.scrollWithEditor": false,
   "workbench.tree.enableStickyScroll": false,
   "editor.semanticTokenColorCustomizations": {
-    "enabled": true, // enable for all themes
+    "enabled": false, // enable for all themes
     "[Default Dark+]": {
       "enabled": true // enable for a particular theme
     }
   },
   "terminal.integrated.env.windows": {},
-  "workbench.colorTheme": "Gruvbox Dark Hard",
   "ActiveFileInStatusBar.enable": true,
   // Show fullpath or relative path in status bar.
   "ActiveFileInStatusBar.fullpath": false,
   // Reveal the active file in the file system.
   "ActiveFileInStatusBar.revealFile": false,
   "breadcrumbs.enabled": false,
+  "workbench.colorTheme": "Solarized Osaka",
   "workbench.sideBar.location": "right"
 }
